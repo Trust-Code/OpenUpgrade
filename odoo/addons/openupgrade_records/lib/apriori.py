@@ -28,6 +28,16 @@ renamed_modules = {
     'sale_product_classification': 'product_abc_classification_sale',
     # OCA/stock-logistics-warehouse
     'stock_putaway_product_form': 'stock_putaway_product_template',
+    # Localizacao
+    'br_base': 'l10n_br_base',
+    'br_account': 'l10n_br_account',
+    'br_sale': 'l10n_br_sale',
+    'br_purchase': 'l10n_br_purchase',
+    'br_nfe_mde': 'l10n_br_nfe_mde',
+    'br_nfe_import': 'l10n_br_nfe_import',
+    'br_nfe': 'l10n_br_eletronic_document',
+    'br_website_sale': 'l10n_br_website_sale',
+    'br_stock_account': 'l10n_br_stock_account',
 }
 
 merged_modules = {
@@ -139,6 +149,19 @@ merged_modules = {
     'muk_dms_mail': 'dms',
     'muk_dms_thumbnails': 'dms',
     'muk_dms_view': 'dms',
+    # Localizacao
+    'br_data_base': 'l10n_br_base',
+    'br_account_einvoice': 'l10n_br_eletronic_document',
+    'br_nfse': 'l10n_br_eletronic_document',
+    'br_nfse_paulistana': 'l10n_br_eletronic_document',
+    'br_data_account': 'l10n_br_account',
+    'br_data_account_product': 'l10n_br_account',
+    'br_purchase_stock': 'l10n_br_purchase',
+    'br_sale_stock': 'l10n_br_sale',
+    'br_zip': 'l10n_br_base_address',
+    'br_sale_payment': 'l10n_br_sale',
+    'br_bank_statement_import': 'account_bank_statement_import_ofx',
+    'br_coa_simple': 'br_coa_me_epp',
 }
 
 # only used here for openupgrade_records analysis:
